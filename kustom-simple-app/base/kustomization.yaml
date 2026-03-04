@@ -1,0 +1,17 @@
+resources:
+- deployment.yaml
+- service.yaml
+
+commonLabels:
+    app: k8s-study-app
+
+commonAnnotations:
+    app: mykustom-annotations 
+
+namePrefix:
+    kustom-
+
+nameSuffix:
+    -v1
+
+
