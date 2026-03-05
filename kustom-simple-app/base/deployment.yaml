@@ -15,7 +15,7 @@ spec:
           command: ["sh", "-c", "sleep 10"]
       containers:
         - name: k8s-study-app
-          image: andrewromanchukk/k8s-study-app:1.0.0
+          image: andrewromanchukk/k8s-study-app:1.0.1
           ports:
             - containerPort: 8089   # change if your app uses a different port
           resources:
