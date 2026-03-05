@@ -3,4 +3,4 @@ kind: Deployment
 metadata:
   name: k8s-study-app
 spec:
-  replicas: 2
+  replicas: 4
